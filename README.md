@@ -24,6 +24,7 @@ You can check the messages received on the consumer. You can play with the code 
 ## Español
 
 [Read in English](#english) 
+
 Ejemplo de uso de Kafka con Go y Sarama. Basado en los ejemplos del sitio oficial, pero estructurados en una carpeta para probar facilmente.
 
 
