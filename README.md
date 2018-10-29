@@ -27,12 +27,14 @@ You can check the messages received on the consumer. You can play with the code 
 
 Ejemplo de uso de Kafka con Go y Sarama. Basado en los ejemplos del sitio oficial, pero estructurados en una carpeta para probar facilmente.
 
+### Pasos
+Asume ya se tiene instalado Go y que se ha configurado la variable de entorno GOPATH adems de un pequeño conocimiento del lenguaje.
 
-1. Download and start kafka using the Quickstart from the official page 
+1. Descargar e iniciar kafka usando el quickstart de la página oficial 
     https://kafka.apache.org/quickstart
-2. Get Sarama 
+2. Obtener Sarama
 ```import github.com/Shopify/sarama```
-3. Cloner este repositorio en el src del GOPATH definido
+3. Clonar este repositorio en el src del GOPATH definido
 4. Abrir un terminal, ir a src/go-sarama-kafka-example/consumer y ejecutar
 ```go run consumer.go```
 5. Abrir un segundo terminal, dejar visible el primero, ir a src/go-sarama-kafka-example/producer y ejecutar
